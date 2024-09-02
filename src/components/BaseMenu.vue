@@ -14,6 +14,7 @@
             <v-btn>test</v-btn>
             <v-btn>test</v-btn>
             <v-btn>test</v-btn>
+            <v-btn>{{ $t('test')}}</v-btn>
           </template>
         </v-toolbar-items>  
         <v-spacer/>
