@@ -8,21 +8,23 @@
         <v-spacer></v-spacer>
         <div class="my-16">
           <h1 class="text-h2 mb-1">
-            Transformez votre vision en réalité avec notre expertise en développement technologique
+            {{ $t('banner_text.transform_vision') }}
           </h1>
         </div>
         <div>
-          <p>Chez LFGL-Tech, nous sommes spécialisés dans la création de solutions
-          numériques innovantes et adaptées à vos besoins spécifiques. <br>
-          Que vous soyez une entreprise à la recherche d'une transformation digitale ou un particulier avec une idée
-          révolutionnaire, notre équipe est prête à vous accompagner à chaque étape de votre projet.
-        </p>
+          <p class="about-us"> {{ $t('banner_text.about_us') }} </p>
         </div>
         <div class="my-10 d-flex">
-          <v-btn variant="flat" rounded class="mx-2" color="primary">Savoir plus ...</v-btn>
-          <v-btn class="mx-2" rounded>Voir tous nos services</v-btn>
+          <v-btn variant="flat" rounded class="mx-2" color="primary">{{ $t('cta.learn_more') }}</v-btn>
+          <v-btn class="mx-2" rounded>{{ $t('cta.view_services') }}</v-btn>
         </div>
       </div>
     </v-container>
-  </v-parallax> 
+  </v-parallax>
 </template>
+
+<style scoped>
+  .about-us{
+    white-space: pre-line;
+  }
+</style>

@@ -7,6 +7,12 @@
     "contact": "Contact"
   },
   "cta": {
-    "get_quote": "Discutons projet"
+    "get_quote": "Discutons projet",
+    "learn_more": "Savoir plus ...",
+    "view_services": "Voir tous nos services"
+  },
+  "banner_text": {
+    "transform_vision": "Transformez votre vision en réalité avec notre expertise en développement technologique",
+    "about_us": "Chez LFGL-Tech, nous sommes spécialisés dans la création de solutions numériques innovantes et adaptées à vos besoins spécifiques.\nQue vous soyez une entreprise à la recherche d'une transformation digitale ou un particulier avec une idée révolutionnaire, notre équipe est prête à vous accompagner à chaque étape de votre projet."
   }
 }
