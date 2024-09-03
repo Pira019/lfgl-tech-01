@@ -8,7 +8,7 @@
 import { registerPlugins } from '@/plugins'
 
 //lang
- 
+
 import fr from './locale/fr.json'
 import en from './locale/en.json'
 
@@ -16,7 +16,7 @@ import en from './locale/en.json'
 import App from './App.vue'
 
 // Composables
-import { createApp } from 'vue'    
+import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 
 const app = createApp(App)
@@ -26,7 +26,8 @@ const storedLang = localStorage.getItem('lang') || 'fr'
 
 const i18n = createI18n({
     lagacy : false,
-    locale : storedLang, 
+    locale : storedLang,
+    fallbackLocale: 'fr',
     messages : {
       en : en,
       fr : fr
