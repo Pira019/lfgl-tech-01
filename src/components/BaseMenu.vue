@@ -6,22 +6,19 @@
           <router-link to="/" tag="span">
             <v-img class="mx-2" :src="imgLogo" max-height="100" max-width="70" contain alt="logo lfgl-tech"></v-img>
           </router-link>
-        </v-toolbar-title> 
+        </v-toolbar-title>
 
         <v-toolbar-items>
           <template v-if="$vuetify.display.mdAndUp">
-            <v-btn>test</v-btn>
-            <v-btn>test</v-btn>
-            <v-btn>test</v-btn>
-            <v-btn>test</v-btn>
-            <v-btn>{{ $t('test')}}</v-btn>
+            <v-btn v-for="(item,index) in menuItems" :key="index">{{ $t(item.key) }}</v-btn>
           </template>
-        </v-toolbar-items>  
-        <v-spacer/>
+        </v-toolbar-items>
+        <v-spacer />
         <div>
-          <v-btn rounded="xl" variant="flat" color="primary">test</v-btn>
+          <v-btn rounded="xl" variant="flat" color="primary">{{ $t('cta.get_quote') }}</v-btn>
           <base-menu-lang></base-menu-lang>
-          <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer" v-if="!$vuetify.display.mdAndUp"></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"
+            v-if="!$vuetify.display.mdAndUp"></v-app-bar-nav-icon>
         </div>
       </v-container>
     </v-app-bar>
@@ -29,14 +26,8 @@
     <v-navigation-drawer v-if="!$vuetify.display.mdAndUp" v-model="drawer"
       :location="$vuetify.display.mobile ? 'top' : undefined" temporary>
       <v-list nav>
-        <v-list-item link to="/">
-          <v-list-item-title>1</v-list-item-title>
-        </v-list-item>
-        <v-list-item link>
-          <v-list-item-title>1</v-list-item-title>
-        </v-list-item>
-        <v-list-item link>
-          <v-list-item-title>1</v-list-item-title>
+        <v-list-item link to="/" v-for="(item,index) in menuItems" :key="index">
+          <v-list-item-title>{{ $t(item.key) }}</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -50,7 +41,13 @@ export default {
   data() {
     return {
       imgLogo,
-      drawer: false
+      drawer: false,
+      menuItems: [
+        { key: 'menu.services', route: '/services' },
+        { key: 'menu.about', route: '/about' },
+        { key: 'menu.faq', route: '/faq' },
+        { key: 'menu.contact', route: '/contact' }
+      ]
     }
   },
 
