@@ -17,7 +17,7 @@ import App from './App.vue'
 
 // Composables
 import { createApp } from 'vue'
-import { createI18n } from 'vue-i18n'
+import { createI18n } from 'vue-i18n' 
 
 const app = createApp(App)
 

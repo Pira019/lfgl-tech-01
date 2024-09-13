@@ -11,9 +11,45 @@
         "learn_more": "Learn More ...",
         "view_services": "See All Our Services"
     },
-
     "banner_text": {
         "transform_vision": "Turn Your Vision into Reality with Our Tech Expertise",
         "about_us": "At LFGL-Tech, we specialize in creating innovative digital solutions tailored to your specific needs.\nWhether you're a business seeking digital transformation or an individual with a groundbreaking idea, our team is ready to support you at every stage of your project."
+    },
+    "services": {
+        "title": "LFGL-Tech Services",
+        "items": {
+            "customSoftwareDevelopment": {
+                "title": "Custom Software Development",
+                "description": "Creation of custom web and mobile applications."
+            },
+            "microservicesAndApis": {
+                "title": "Microservices & APIs",
+                "description": "Development and integration of scalable microservices and APIs."
+            },
+            "digitalTransformation": {
+                "title": "Digital Transformation",
+                "description": "Automation of processes and digitization of operations for SMEs."
+            },
+            "cloudComputingAndDevOps": {
+                "title": "Cloud Computing & DevOps",
+                "description": "Deployment and management of cloud infrastructure, CI/CD pipelines, and cloud migrations."
+            },
+            "identityAndAccessManagement": {
+                "title": "Identity and Access Management (IAM)",
+                "description": "Identity management, access control, and secure authentication solutions."
+            },
+            "technicalTraining": {
+                "title": "Technical Training",
+                "description": "Training and support for teams in development, DevOps, and cloud technologies."
+            },
+            "innovationConsulting": {
+                "title": "Innovation Consulting",
+                "description": "Consulting on technological strategy and digital transformation."
+            },
+            "websiteAndEcommerce": {
+                "title": "Website and E-Commerce Creation",
+                "description": "Design and optimization of websites and e-commerce platforms."
+            }
+        }
     }
 }

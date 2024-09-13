@@ -14,5 +14,42 @@
   "banner_text": {
     "transform_vision": "Transformez votre vision en réalité avec notre expertise en développement technologique",
     "about_us": "Chez LFGL-Tech, nous sommes spécialisés dans la création de solutions numériques innovantes et adaptées à vos besoins spécifiques.\nQue vous soyez une entreprise à la recherche d'une transformation digitale ou un particulier avec une idée révolutionnaire, notre équipe est prête à vous accompagner à chaque étape de votre projet."
+  },
+  "services": {
+    "title": "Services de LFGL-Tech",
+    "items": {
+      "customSoftwareDevelopment": {
+        "title": "Développement de solutions logicielles personnalisées",
+        "description": "Création d'applications web et mobiles sur mesure."
+      },
+      "microservicesAndApis": {
+        "title": "Microservices & APIs",
+        "description": "Développement et intégration de microservices et d'APIs scalables."
+      },
+      "digitalTransformation": {
+        "title": "Transformation digitale",
+        "description": "Automatisation des processus et digitalisation des opérations pour les PME."
+      },
+      "cloudComputingAndDevOps": {
+        "title": "Cloud Computing & DevOps",
+        "description": "Déploiement et gestion d'infrastructures Cloud, pipelines CI/CD et migrations vers le Cloud."
+      },
+      "identityAndAccessManagement": {
+        "title": "Gestion des Identités et Accès (IAM)",
+        "description": "Solutions de gestion des identités, des accès et des authentifications sécurisées."
+      },
+      "technicalTraining": {
+        "title": "Formations techniques",
+        "description": "Formation et accompagnement pour les équipes en développement, DevOps, et Cloud."
+      },
+      "innovationConsulting": {
+        "title": "Consulting en innovation technologique",
+        "description": "Conseil en stratégie technologique et transformation numérique."
+      },
+      "websiteAndEcommerce": {
+        "title": "Création de sites web et e-commerce",
+        "description": "Conception et optimisation de sites web et de plateformes e-commerce."
+      }
+    }
   }
 }
